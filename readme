@@ -1,0 +1,70 @@
+1  gh repo clone drehimself/laravel-movies-example
+    2  ssh-keygen -t rsa -b 4096 -C kerkeniaziz@gmail.com
+    3  cat /c/User/timo4/.ssh/id_rsa.pub
+    4  cat ~/.ssh/id_rsa.pub
+    5  git config --global user.name "AzizKr"
+    6  git config --global user.email kerkeniaziz@gmail.com
+    7  git clone git@github.com:kerkeniaziz/Devops.git
+    8  cd Devops
+    9  touch index.html
+   10  git add index.html
+   11  git commit -m "Premier commit : ajout de index.html"
+   12  git log
+   13  git diff commit_id_1 commit_id_2
+   14  git diff commit_id_1 commit_id_2
+   15  touch index.html
+   16  git log
+   17  echo "Contenu de votre fichier" > index.html
+   18  git log
+   19  git diff commit_id_1 commit_id_2
+   20  git commit -m "zidit il date"
+   21  git commit -a
+   22  git commit -m "date : in index.html"
+   23  git log
+   24  git branch --unset-upstream
+   25  git commit -m "date : in index.html"
+   26  git add index.html
+   27  git add
+   28  git add .
+   29  git log
+   30  git add .
+   31  git commit -m "date"
+   32  git log
+   33  git push
+   34      git push --set-upstream origin main
+   35  git push
+   36  git branch function1
+   37  git checkout function1
+   38  git add .
+   39  git commit -m "Modification de function1"
+   40  git push origin function1
+   41  git commit -m "Modification de function1"
+   42  git add .
+   43  git commit -m "Modification de function1"
+   44  git push origin function1
+   45  git checkout function1
+   46  git commit -am "Modification dans function1"
+   47  git checkout master
+   48  git checkout master
+   49  git checkout master
+   50  git checkout help
+   51  git checkout main
+   52  git commit -am "Modification dans main"
+   53  git merge function1
+   54  git add.
+   55  git add .
+   56  git commit -m "conflit"
+   57  git flow init
+   58  git flow init
+   59  git flow feature start function1
+   60  git flow feature start  function1
+   61  git flow init
+   62  git flow init -f
+   63  git flow feature start function1
+   64  git flow release start version_1.0.0
+   65  git flow feature finish function1
+   66  git flow hotfix start hot1
+   67  git push
+   68  git push .
+   69  git log
+   70  history
